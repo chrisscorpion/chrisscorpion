@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogue Meu Jogo do Scratch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px; /* Limita o tamanho máximo do iframe */
+            margin: 20px auto; /* Centraliza na tela */
+            aspect-ratio: 4 / 3; /* Mantém a proporção correta */
+        }
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Game do Chris Scorpion</h1>
+        <p>Vire a tela do celular!</p>
+        <div class="iframe-container">
+            <iframe src="https://scratch.mit.edu/projects/1097484083/embed?autostart=true" 
+                    allowtransparency="true" 
+                    scrolling="no" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
